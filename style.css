@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: #5297FF;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 28px 0;
+}
+
+.header__list {
+    display: flex;
+    /* font-size: 18px; */
+}
+
+.header__list li a {
+    font-size: 18px;
+    color: #FFFFFF;
+
+    margin-right: 60px;
+    transition: all .2s;
+}
+
+.header__list li a:hover {
+    color: #d8d8d8;
+}
+
+
+.main {
+    border-bottom: 4px solid #5297FF;
+    padding: 240px 0 100px;
+}
+
+.main__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__text {
+    font-size: 24px;
+    text-indent: 20px;
+    max-width: 500px;
+}
+
+
+.title {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.cars {
+    padding: 25px 0 0;
+}
+
+.cars__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cars__item {
+    flex: 1 1 750px;
+    border-top: 4px solid #5297FF;
+    border-right: 4px solid #5297FF;
+    
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.cars__item-noborder {
+    border-right: 0;
+}
+
+.cars__img {
+    margin-bottom: 20px;
+}
+
+.cars__img img {
+    width: 500px;
+}
+
+.cars__name {
+    font-size: 24px;
+
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.pro {
+    background: #5297FF;
+    padding: 50px 0 70px;
+}
+
+.pro__title {
+    margin-bottom: 70px;
+}
+
+
+.swiper-slide-box {
+    max-width: 450px;
+}
+
+.swiper-slide-box img {
+    border: 6px solid #FFFFFF;
+    width: 100%;
+
+    margin-bottom:15px;
+}
+
+.swiper-pro {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #ececec;
+}
+
+
+.contact {
+    padding: 25px 0 50px;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__img {
+    max-width: 500px;
+    padding-right: 30px;
+}
+
+.contact__img img {
+    width: 100%;
+}
+
+.contact__title {
+    margin-bottom: 45px;
+}
+
+.contact__text-box {
+    max-width: 500px;
+}
+
+.contact__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
